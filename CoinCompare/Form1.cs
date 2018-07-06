@@ -172,5 +172,10 @@ namespace CoinCompare
             }
             return result;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < dataGridView1.RowCount; i++) dataGridView1.Rows[i].Cells["Collisions"].Value = "";
+        }
     }
 }
