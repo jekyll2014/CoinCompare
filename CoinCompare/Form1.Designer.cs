@@ -139,7 +139,7 @@
             this.dataGridView_graph.AllowUserToAddRows = false;
             this.dataGridView_graph.AllowUserToDeleteRows = false;
             this.dataGridView_graph.AllowUserToResizeRows = false;
-            this.dataGridView_graph.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_graph.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView_graph.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView_graph.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_graph.Dock = System.Windows.Forms.DockStyle.Fill;
